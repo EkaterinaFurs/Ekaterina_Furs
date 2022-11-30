@@ -7,9 +7,9 @@
 <body>
 <h1>HOW-TO: Программа на Python, Часть 3</h1> 
    <ul>
-        <li><em>Программа на Python &mdash; часть 1</em></li>
-        <li><em>Программа на Python &mdash; часть 2</em></li>
-        <li><em>Программа на Python &mdash; часть 3</em></li>
+        <li><i>Программа на Python &mdash; часть 1</i></li>
+        <li><i>Программа на Python &mdash; часть 2</i></li>
+        <li><i>Программа на Python &mdash; часть 3</i></li>
     </ul>
 <h2>Содержание</h2> 
 <h3>HOW-TO: Программа на Python, Часть 3</h3>
@@ -17,13 +17,13 @@
         <li><u>Модули</u></li>
         <li><u>Функции</u></li>
     </ul>
-    <hr>
+<hr>
     <p>В прошлый раз мы изучали списки, подстановку переменных, комментарии, сравнение и<br>
         присвоение, операторы <b>if</b> и <b>while</b> Я обещал, что в этой части мы изучим модули и<br>
         функции. Давайте начнём</p>
 <h2>Модули</h2> 
     <p>Модули предлагают способ расширить программирование на Python. Вы можете создать<br>
-         свои модули, использовать те, которые поставляются с Python или которые написали<br>
+        свои модули, использовать те, которые поставляются с Python или которые написали<br>
         другие. В самом Python есть сотни модулей, которые облегчают написание программ <br>
         Список модулей, поставляемых с Python, находится по адресу: <br>
         <em><u>//docs.python.org/modindex.html.</u></em> Некоторые модули предназначены для определённых<br>
@@ -41,7 +41,6 @@
         &#35; print 14 random integers<br>
         for cntr in range(1,15):<br>
         &nbsp;&nbsp;&nbsp;&nbsp;print random.randint(1,10)</KBD>
-
     <p>Давайте разберём код по строкам. Первые четыре строки — это комментарии, о которых<br>
         мы говорили в прошлый раз. Пятая строка говорит Python, что нужно использовать<br>
         модуль «random». Мы должны явно указать Python на это</p>
@@ -77,22 +76,22 @@
         функции и список параметров, если таковые имеются, в круглых скобках. Эту строку<br>
         необходимо завершить двоеточием. Код функции набирается с отступом. Наш<br>
         улучшенный простой пример (<u>&#8470;2</u>) показан ниже.</p>
-            <br>
-            <kbd>#silly example 2...still silly, but better</kbd><br>
-            <kbd>def DoTwo(num1,num2):</kbd><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>print '&#37;d + &#37;d = &#37;d ' &#37; (num1,num2,num1+num2)</kbd><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>print '&#37;d * &#37;d = &#37;d ' &#37; (num1,num2,num1*num2)</kbd><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>print '&#37;d - &#37;d = &#37;d ' &#37; (num1,num2,num1-num2)</kbd><br>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>print '\n'</kbd><br>
-            <kbd>DoTwo(1,2)</kbd><br>
-            <kbd>DoTwo(1,4)</kbd><br>
-            <kbd>DoTwo(10,5)</kbd><br>
-            <p>Как видите, здесь написано меньше кода — 8 строк вместо 12. Если нам нужно будет что-<br>
-                либо поменять в функции, мы сможем сделать это, не создавая проблем для нашей<br>
-                программы. Чтобы вызвать функцию, нужно написать её имя и параметры.<br></p>
-  
-
-           
+    <br>
+    <kbd>#silly example 2...still silly, but better<br>
+    <kbd>def DoTwo(num1,num2):<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>print '&#37;d + &#37;d = &#37;d ' &#37; (num1,num2,num1+num2)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>print '&#37;d * &#37;d = &#37;d ' &#37; (num1,num2,num1*num2)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>print '&#37;d - &#37;d = &#37;d ' &#37; (num1,num2,num1-num2)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<kbd>print '\n'<br>
+        DoTwo(1,2)<br>
+        DoTwo(1,4)<br>
+        DoTwo(10,5)</kbd>
+    <br>
+    <p>Как видите, здесь написано меньше кода — 8 строк вместо 12. Если нам нужно будет что-<br>
+        либо поменять в функции, мы сможем сделать это, не создавая проблем для нашей<br>
+        программы. Чтобы вызвать функцию, нужно написать её имя и параметры.</p>
+</body>
+</html>      
         
 
 
