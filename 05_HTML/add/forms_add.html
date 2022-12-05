@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registration form</title>
+</head>
+<body>
+    <style>
+    .text {
+         text-align:  center;
+         font-size: 28px;
+        }
+       </style>
+          <body>
+    <div class="text">
+        <p><b>Заполните анкету</b></p> 
+    </div>
+    <form action="http://fe.it-academy.by/TestForm.php"method="post" name="review">
+        <fieldset> 
+            <legend>Личные данные</legend>
+            <p>
+                <input type="text" maxlength="25" size="25" placeholder="Фамилия" name="last_name" autofocus lang="ru" pattern="^[А-Я]{1,25}">*<i>обязательное поле</i> <br>
+                <input type="text" maxlength="20" size="25" placeholder="Имя" name="first_name"  lang="ru" pattern="^[А-Я]{1,20}">*<i>обязательное поле</i><br>
+                <input type="text" maxlength="24" size="25" placeholder="Отчество"name="first_name"  lang="ru" pattern="^[А-Я]{1,24}">*<i>обязательное поле</i><br>
+            </p>
+        <fieldset>
+            <legend>Паспортные данные</legend>
+            <p>
+                <input type="text" maxlength="2" size="2" placeholder="АА" name="passport_seria" pattern="^[A-Z]{2}">
+                <input type="text" maxlength="24" size="7" placeholder="1234567"name="passport_number" pattern="[0-9]{7}">
+            </p>
+        <fieldset>
+            <legend>Дата рождения</legend>
+                <input type="text" maxlength="4" size="4" placeholder="Год рождения" name="data" pattern="^[0-9] {4}">
+
+          </fieldset>
+
+    </form>
+
+
+
+
+</body>
+</html>
