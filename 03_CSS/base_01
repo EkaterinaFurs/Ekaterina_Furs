@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adaptive_navigation</title>
+    <style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        body{
+            height: 10000px;
+        }
+        .header{
+            height: 20px;
+        }
+        .Monday, 
+        .Tuesday, 
+        .Wednesday, 
+        .Thursday, 
+        .Friday, 
+        .Saturday{
+                    width: 100px;
+                    height: 20px;
+                    border: solid rgb(5, 5, 5);
+                    float: left;
+                    border-radius: 5px;
+                    background-color: rgb(211, 210, 210);
+                    margin-left: 1px;
+        }
+        .breackfast, 
+        .lunch,
+        .dinner{
+                    width: 100px;
+                    height: 20px;
+                    border: solid rgb(5, 5, 5);
+                    margin-top: 1px;
+                    border-radius: 5px;
+                    background-color: rgb(236, 209, 209);
+        }
+        @media all and (max-width: 1187px){
+        .Monday, 
+        .Tuesday, 
+        .Wednesday, 
+        .Thursday, 
+        .Friday, 
+        .Saturday{
+                    width: 100px;
+                    height: 20px;
+                    border: solid rgb(5, 5, 5);
+                    float: left;
+                    border-radius: 5px;
+                    background-color: rgb(211, 210, 210);
+                    margin-left: 1px;
+        }
+        .breackfast, 
+        .lunch,
+        .dinner{
+                    width: 100px;
+                    height: 20px;
+                    border: solid rgb(5, 5, 5);
+                    margin-top: 1px;
+                    border-radius: 5px;
+                    background-color: rgb(236, 209, 209);
+        }
+        }
+        @media all and (max-width: 617px){
+        .Monday, 
+        .Tuesday, 
+        .Wednesday, 
+        .Thursday, 
+        .Friday, 
+        .Saturday{
+                    width: 100px;
+                    height: 20px;
+                    border: solid rgb(5, 5, 5);
+                    float: left;
+                    border-radius: 5px;
+                    background-color: rgb(211, 210, 210);
+                    margin-left: 1px;   
+        }
+        .breackfast, 
+        .lunch,
+        .dinner{
+            visibility: hidden;
+        }
+    }
+     </style>
+</head>
+<body>
+    <header class="header"></header>
+    <div class="Monday">Понедельник</div>
+    <div class="Tuesday">Вторник</div>
+    <div class="Wednesday">Среда
+        <div class="breackfast">Завтрак</div>
+        <div class="lunch">Обед</div>
+        <div class="dinner">Ужин</div>
+    </div>
+    <div class="Thursday">Четверг</div>
+    <div class="Friday">Пятница</div>
+    <div class="Saturday">Суббота</div> 
+</body>
+</html>
