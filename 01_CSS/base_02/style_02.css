@@ -1,0 +1,14 @@
+.header{
+    text-align: right;
+}
+.article{
+    font-family: 'Bad Script', serif;
+    font-weight: 500;
+}
+.accost{
+    font-family: 'Bad Script', serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
+ p { 
+    text-indent: 30px;}
