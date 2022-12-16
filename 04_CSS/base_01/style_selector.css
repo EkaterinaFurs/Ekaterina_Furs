@@ -1,0 +1,19 @@
+li{
+    list-style-type: none;
+  }
+ td {
+    border: 1px solid black;
+    border-radius: 0% 5%;
+ }
+li a::before {
+    content: url(list.jpg);
+}
+li:first-child:hover:after{
+    content: url(Word.jpg);
+}
+li:nth-child(2n):hover:after{
+    content: url(pdf.png);
+}
+li:nth-child(3n):hover:after{
+    content: url(pdf.png);
+}
